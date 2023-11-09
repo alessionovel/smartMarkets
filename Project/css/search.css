@@ -1,0 +1,136 @@
+.products-container {
+    padding: 20px;
+}
+
+.supermarkets-container {
+    padding: 20px;
+}
+
+.main-title {
+    color: white;
+    font-size: 75px;
+}
+
+.errore {
+    color: var(--secondary-color);
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.subtitle {
+    color: white;
+}
+
+.button-title {
+    color: white;
+    padding: 10px 30px;
+    background-color: #444444;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.button-title:hover {
+    background-color: white;
+    color: #444444;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.product {
+    width: 300px;
+    background: #222222;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-texts {
+    padding: 20px 10px;
+}
+
+.product-name {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.product-button {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.supermarkets {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    flex-direction: column;
+    align-content: center;
+}
+
+.supermarket {
+    width: 600px;
+    background: #222222;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.supermarket-image {
+    width: 100%;
+}
+
+.supermarket-texts {
+    padding: 20px 10px;
+}
+
+.supermarket-name {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.supermarket-text {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.supermarket-button {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.loading{
+  width: 20px;
+}
+
+a:link {
+    text-decoration: underline !important;
+    color: white;
+}
+
+a:visited {
+    text-decoration: underline !important;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline !important;
+    color: #e93b81;
+}
+
+a:active {
+    text-decoration: underline !important;
+    color: white;
+}

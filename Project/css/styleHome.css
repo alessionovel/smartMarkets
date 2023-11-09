@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background:#f5abc9;
+}
+
+.main-title {
+    color: white;
+    font-size: 75px;
+}
+
+.corpo-testo {
+
+    color: white;
+    font-size: 30px;
+}
+
+:root {
+--primary-color: #f5abc9;
+--secondary-color: #e93b81;
+--complimentary-color: #ffe5e2;
+--contrast-color: #b6c9f0;
+--light-color: #D2A9D9;
+}
+
+
+.container {
+  height: 100%;
+  font-family: Montserrat, sans-serif;
+  z-index: 100;
+  width: 94%;
+  margin-left: auto;
+  text-align: center;
+}
+
+nav a {
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a:hover{
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    width: 6%;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+    background: var(--secondary-color);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+}
+
+@keyframes fadeIn {
+    100% { opacity:1 }
+}
+
+.input-container {
+    flex-grow: 2;
+    margin: 0px 50px;
+    padding-top: 20px;
+}
+
+.input-container input {
+    background: #444444;
+    color : white;
+    border: 0;
+    border-radius: 999px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.input-container select {
+    background: #444444;
+    color : white;
+    border: 0;
+    border-radius: 999px;
+    padding: 10px 20px;
+    width: 15%;
+}
+
+.input-container input:hover,
+.input-container input:focus {
+    outline: none;
+}
+
+.quantita{
+  height: 40px;
+    width: 45px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.popup{
+	width: 400px;
+	height: 200px;
+	background: #fefefe;
+	margin: 40px auto;
+	padding: 10px 20px;
+	position: relative;
+	color: #333;
+}
+
+.overlay{
+	position: fixed; /* schermo intero*/
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  height: 100vh;
+	background: rgba(0,0,0,0.7); /* colore sfondo e opcità */
+	text-align: center;
+	display: none; /*cambiaremo in display: none*/
+}
+
+.close{
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	color: #fff;
+}
+
+.close:hover{
+	cursor: pointer;
+}
